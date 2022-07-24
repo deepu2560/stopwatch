@@ -29,3 +29,19 @@
 #clock-second {
   color: #e63946;
 }
+
+@media only screen and (min-width: 450px) and (max-width: 821px) {
+  #clock-time-display > p {
+    font-size: 300%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 440px) {
+  #clock {
+    font-size: medium;
+  }
+  #clock-time-display > p {
+    font-size: 250%;
+    margin-bottom: 20px;
+  }
+}

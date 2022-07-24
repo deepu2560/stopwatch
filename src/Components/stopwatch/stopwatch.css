@@ -43,3 +43,13 @@ button:hover {
   background-color: #333533;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+@media only screen and (max-width: 440px) {
+  #stopwatch {
+    font-size: medium;
+  }
+
+  #stopwatch-time-display {
+    font-size: x-large;
+  }
+}
