@@ -1,0 +1,31 @@
+#clock {
+  font-size: xx-large;
+}
+
+#clock-time-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+#clock-time-display > p {
+  font-weight: bolder;
+  font-size: 500%;
+  padding: 0px;
+  letter-spacing: 3px;
+  margin: 0px;
+}
+
+#clock-hour {
+  color: #40916c;
+}
+
+#clock-minute {
+  color: #a2d6f9;
+}
+
+#clock-second {
+  color: #e63946;
+}

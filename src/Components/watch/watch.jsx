@@ -41,13 +41,14 @@ export const Watch = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Watch</h1>
-      <div>
-        <div>{`${hour} : `}</div>
-        <div>{`${minute} : `}</div>
-        <div>{`${second} `}</div>
-        <div>{session}</div>
+    <div id="clock">
+      <h1>Clock</h1>
+      <div id="clock-time-display">
+        <p>
+          <span id="clock-hour">{hour + " "}</span> :{" "}
+          <span id="clock-minute">{minute + " "}</span> :{" "}
+          <span id="clock-second">{second + " "}</span> {session}
+        </p>
       </div>
     </div>
   );
