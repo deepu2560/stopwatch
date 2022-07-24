@@ -1,0 +1,45 @@
+#stopwatch {
+  font-size: larger;
+  width: 70%;
+  margin: auto;
+  border-top: 1px solid #333533;
+}
+
+#stopwatch > h1 {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+#stopwatch-time-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+#stopwatch-time-display {
+  font-weight: bolder;
+  font-size: 200%;
+  padding: 0px;
+  margin: 0px;
+  letter-spacing: 3px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #ffd60a;
+  font-size: x-large;
+  font-weight: bolder;
+  border: 1px solid #333533;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #333533;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
